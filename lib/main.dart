@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   printToScreen(String text, MaterialColor textColor, FontStyle textFontStyle,FontWeight textFontWeight, String textFontFamily) {
     return Padding(
-      padding: EdgeInsets.all(20.0),
+      padding: const EdgeInsets.all(20.0),
       child: Text(
         text,
         style: TextStyle(
